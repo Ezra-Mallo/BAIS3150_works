@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BAIS3150_UI_Razor_Pages_Assignment.props" />
+</Project>

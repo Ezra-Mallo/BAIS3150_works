@@ -1,0 +1,46 @@
+﻿@page
+@model BAIS3150_UI_Razor_Pages_Assignment.Pages.emallo1SignOnModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="en-ca"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="~/libraries/jquery/jquery.js"></script>
+        <script src="~/libraries/jquery-validate/jquery.validate.js"></script>
+        <script src="~/libraries/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        
+        <title>SignOn Page </title>        
+    </head>
+    <body>
+        <form name="SignOnForm" method="post" action="/">
+            <table>
+                <tr>
+                    <td>
+                        <h1>Sign On!</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>User ID:</td>
+                    <td>
+                        <input type="text" asp-for="UserID" />
+                        <span asp-validation-for="UserID" style="color:red; font-size:smaller;font-style:italic"></span>
+                     </td>
+                    
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" asp-for="Password" /> 
+                        <span  asp-validation-for="Password" style="color:red; font-size:smaller;font-style:italic"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="Submit" value="Submit" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

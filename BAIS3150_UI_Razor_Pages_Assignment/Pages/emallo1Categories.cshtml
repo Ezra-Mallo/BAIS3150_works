@@ -1,0 +1,53 @@
+﻿@page
+@model BAIS3150_UI_Razor_Pages_Assignment.Pages.emallo1CategoriesModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="en-ca"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Categories</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>CategoryName</td>
+                <td>Description</td>
+                <td>Picture</td>
+            </tr>
+
+
+            @if (Model.categories.Count > 0 && Model.categories != null)
+            {
+                @foreach (var category in Model.categories)
+                {
+                    <tr>
+                        <td style="white-space:normal">@category.CategoryName</td>
+                        <td style="white-space:normal">@category.Description</td>
+                        <td style="white-space:normal">
+                            @if(category.Picture != null)
+                            {
+                                // Check if the image data is at least 78 bytes long
+                                if (category.Picture.Length > 78)
+                                {
+                                    // Create a new byte array with the first 78 bytes removed
+                                    byte[] modifiedImageData = new byte[category.Picture.Length - 78];
+                                    Array.Copy(category.Picture, 78, modifiedImageData, 0, category.Picture.Length - 78);
+                                    // Convert the modified byte array to a data URI
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(modifiedImageData)" alt="Category Image" style="max-width: 100%; height: auto;" />
+                                }
+                                else
+                                {
+                                    // If the image data is less than 78 bytes, display the original image
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(category.Picture)" alt="Category Image" style="max-width: 100%; height: auto;" />
+                                }                            
+                            }
+                        </td>
+                    </tr>                 
+                }
+            }
+        
+    </table>
+    </body>
+</html>
