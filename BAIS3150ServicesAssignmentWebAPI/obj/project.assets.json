@@ -2008,11 +2008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150ServicesAssignmentWebAPI\\BAIS3150ServicesAssignmentWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150_works\\BAIS3150ServicesAssignmentWebAPI\\BAIS3150ServicesAssignmentWebAPI.csproj",
       "projectName": "BAIS3150ServicesAssignmentWebAPI",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150ServicesAssignmentWebAPI\\BAIS3150ServicesAssignmentWebAPI.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150_works\\BAIS3150ServicesAssignmentWebAPI\\BAIS3150ServicesAssignmentWebAPI.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150ServicesAssignmentWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150_works\\BAIS3150ServicesAssignmentWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2065,7 +2065,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

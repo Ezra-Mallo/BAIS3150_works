@@ -120,3 +120,12 @@ C:\Users\HP\source\repos\CleanCode_cs\BAIS3150ServicesAssignmentWebAPI\obj\Debug
 C:\Users\HP\source\repos\CleanCode_cs\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.pdb
 C:\Users\HP\source\repos\CleanCode_cs\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.genruntimeconfig.cache
 C:\Users\HP\source\repos\CleanCode_cs\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\ref\BAIS3150ServicesAssignmentWebAPI.dll
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.AssemblyInfo.cs
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.dll
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\refint\BAIS3150ServicesAssignmentWebAPI.dll
+C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIS3150ServicesAssignmentWebAPI\obj\Debug\net7.0\BAIS3150ServicesAssignmentWebAPI.pdb
