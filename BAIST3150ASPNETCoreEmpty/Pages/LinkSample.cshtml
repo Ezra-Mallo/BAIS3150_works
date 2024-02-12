@@ -1,0 +1,49 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.LinkSampleModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Link Sample</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <!-- anchors element -->
+                    <a href="https://dev1.baist.ca">abslute hyperlink </a>
+                </td>
+            </tr>
+            <tr>
+                <a href="https://dev1.baist.ca" target="_blank">targetting hyperlink </a>
+            </tr>
+            <tr>
+                <td>
+                    <a href="~/images/image1.jfif"> relative hyperlink</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- image element-->
+                    <img src="~/images/Image1.jfif" height="100" width="150" alt="Cat image description" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- image link-->
+                    <a href="https://dev1.baist.ca"><img src="~/images/image1.jfif" height="100" width="150" alt="Cat image description" /></a>
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <!-- thumbnail image link -->
+                    <td>
+                        <a href="~/images/image1.jfif"><img src="~/images/image2.jfif" height=" 50" width=" 50" alt="Cat image description" /> </a>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </body>
+</html>

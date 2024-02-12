@@ -1,0 +1,44 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.ValidationDAAModel
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Validation Data Annotation Attributes</title>
+    <!--
+        to bypass client side validation
+        -comment liberary references
+        -or
+        -hardcode tags, <Iput> set property data-val="false"
+
+                -->
+
+    <script src="~/libraries/jquery/jquery.js"> </script>
+    <script src="~/libraries/jquery-validate/jquery.validate.js"></script>
+    <script src="~/libraries/jquery-validate-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+</head>
+<body>
+    <form name="SampleForm" method="post">
+        <table>
+            <tr>
+                <td>Input Field:</td>
+                <td>
+                    <input asp-for="InputField" />
+                    <span asp-validation-for="InputField"> </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="Submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    @Model.Message
+
+</body>
+</html>

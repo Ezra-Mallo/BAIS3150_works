@@ -1,0 +1,76 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.TestPageModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Test Page</title>
+        <script type="text/javascript">
+
+        </script>
+    </head>
+    <body>
+        <!-- HTML 5 Structure Elements: header, nav, main, footer-->
+        <header>
+            Header Area <br />    <!-- line break-->
+            The headings of a web page document or area within <br />
+            <hr />  <!-- horizontal rule-->
+        </header>
+        <nav>
+            Navigation Area<br />
+            Section of navigation links<br />
+            <hr />
+        </nav>
+        <main>
+            Main Area<br />
+            The main content of a web page document, only 1 per page
+            <div>
+                Division Area<br />
+                A generic structural area on a webpage as a block display, with empty space above and below
+                <form name="TestPageForm" method="post">
+                    <table border="1">
+                        <tr>    <!-- table row-->
+                            <td>Field: </td>
+                            <td>
+                                <input type="text"  name="Field" value="@Model.Field" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="2">
+                              <input type="submit"  name="Submit" />
+                            </td>
+                        </tr>
+                       
+                    </table>
+                </form>
+                @Model.Message
+                <!--
+                    HTTP Error 400
+                    missing antiforgery token (request verification tokens)
+                    security measure put in place by ASP.NET, enabled by default in Razo Pages
+                    to avoid cross-site request forgery (CSRF) attacks
+
+                    token proves that request comes from a site which the form originated from
+                    (cookie and form data)
+
+                    use the namespace, Microsoft.ASPNetCore.Mvc.Taghelpers, to get token
+
+                    top of file, add taghelper attribute below the page attribute
+
+                    place in _ViewImports.cshtml to make namespace available for all affexted pages
+
+                    will generate the antiforgery token in the HTML form (veiw source in browser)
+
+                    addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+                -->
+           
+            </div>
+        </main>
+        <footer>
+                 Footer Area<br />
+                 The footer content of a web page or section of a web page <br /><hr />
+         </footer>
+    </body>
+</html>
