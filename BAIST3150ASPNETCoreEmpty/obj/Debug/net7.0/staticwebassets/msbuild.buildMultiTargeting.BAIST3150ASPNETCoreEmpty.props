@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BAIST3150ASPNETCoreEmpty.props" />
+</Project>
