@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" charset="utf-8" />
+        <title>@ViewData["Title"]</title>
+        <!-- Address bar/Browser Tab Faavourite Ico - /wwwroot/images /-->
+        <link rel="icon" href="~/images/BAISTFavoritesIcon.ico" />
+        <!-- /wwwroot/css-->
+        <link rel="stylesheet" href ="~/css/SampleBlueStyle.css" />
+        <script type="text/javascript">
+            //script from layou
+        </script>
+        @RenderSection("ScriptContent", required: false)   <!-- render a section-->
+        
+    </head>
+    <body>
+        <header>
+            Header Area from layout<br />
+        </header>
+        <nav>
+            Navigation Area from layout<br/ >
+        </nav>
+        <main>
+            Main Area from layout<br />
+            @RenderBody()
+        </main>
+        <footer>
+            Footer Area from layout<br />
+            @if (IsSectionDefined("footerContent")) //another way to render a section
+            {
+                @RenderSection("footerContent")
+            }
+        </footer>
+    </body>
+</html>

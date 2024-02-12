@@ -1,0 +1,43 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.ContentModel
+@{
+    //Layout = "_Layout";
+    ViewData["Title"] = "*** Title from content page ***";
+}
+@section scriptContent
+{
+    <script type="text/javascript">
+        //script from the content page
+    </script>
+  
+}
+
+<table>
+    <tr>
+        <td> *** Main Area from COntnet page *** </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <table>
+                    <tr>
+                        <td>*** Division Area from content page ***</td>
+                    </tr>
+                    <tr>
+                        <td>*** <input type="text" name="InputField" /> ***</td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+@section footerContent
+{
+    <table>
+        <tr>
+            <td>** Footer Area from content page ***</td>
+        </tr>
+    </table>
+}

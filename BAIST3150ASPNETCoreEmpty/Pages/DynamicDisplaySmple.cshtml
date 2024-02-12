@@ -1,0 +1,23 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.DynamicDisplaySmpleModel
+@{
+}
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dynamic Display Sample</title>
+    </head>
+    <body>
+        <table>
+            @foreach (var SampleObject in Model.SampleObjectCollection)
+            {
+                <tr>
+                    <td> @SampleObject.FirstProperty</td>
+                    <td> @SampleObject.SecondProperty</td>
+                </tr>
+            }
+    </table>
+
+    </body>
+</html>

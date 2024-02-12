@@ -1,0 +1,41 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.DynamicFormDsplaySampleModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dynamic Form Display Sample</title>
+    </head>
+    <body>
+        <form name="DynamicSampleFOrm" method ="post">
+            <table>
+                <tr>
+                    <td>Field:</td>
+                    <td>
+                        <input type="text" name="AField" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Collection:</td>
+                    <td>
+                        <select name="ACollection" size="2">
+                            @foreach (var SampleObject in Model.SampleObjectCollection)
+                            {
+                                <option value="@SampleObject.FirstProperty">@SampleObject.SecondProperty</option>                                
+                            }
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="Submit" value="Submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        @Model.Message
+
+    </body>
+</html>
