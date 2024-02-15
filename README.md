@@ -1,1 +1,8 @@
 BAIS3150 Works
+Added the following project:
+BAIS3150ASPNETCoreEmptyWebAPI
+BAIS3150ServicesAssignmentWebAPI
+BAIS3150_DemoApplication
+BAIS3150_UI_Razor_Pages_Assignment
+BAIST3150ASPNETCoreEmpty
+emallo1BAIS3150CodeSample
