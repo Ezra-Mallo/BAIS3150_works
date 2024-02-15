@@ -1,0 +1,65 @@
+﻿@page
+@model emallo1BAIS3150CodeSample.Pages.FindProgramModel
+@{
+    ViewData["Title"] = "BAIS3150 Code Sample";
+}
+@section scriptContent
+    {
+    <script></script>
+    }
+
+@section headerContent
+    {
+    <table>
+        <tr><td><h1>BAIS3150 Code Sample.......</h1></td><td><h3>[Find Program]</h3></td></tr>
+    </table>
+}
+
+<form name="FindProgramForm" method="post">
+    <table id="table">
+        <tr>
+            <td>Enter Program Code:</td>
+            <td>
+                <input type="text" asp-for="ProgramCode" />
+                <span asp-validation-for="ProgramCode"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Find" name="Find" />
+            </td>
+        </tr>
+        <tr>
+    </table>
+</form>
+
+<br />
+<br />
+@Model.Message
+
+@if (Model.MessageResponse == true)
+{
+    @if (Model.ActiveProgram != null)
+    {
+        <table border="1">
+            <tr>
+                @Model.ProgramCode
+            </tr>
+            <tr>
+                <th>Student ID</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Email</th>
+            </tr>
+            @foreach (var enrolledStudent in Model.ActiveProgram.EnrolledStudents)
+            {
+                <tr>
+                        <td>@enrolledStudent.StudentID</td>
+                        <td>@enrolledStudent.FirstName</td>
+                        <td>@enrolledStudent.LastName</td>
+                        <td>@enrolledStudent.Email</td>
+                </tr>
+            }
+        </table>
+    }
+}
