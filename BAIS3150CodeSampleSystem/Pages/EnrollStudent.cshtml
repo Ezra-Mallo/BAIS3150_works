@@ -1,0 +1,35 @@
+﻿@page
+@model BAIS3150CodeSampleSystem.Pages.EnrollStudentModel
+@using BAIS3150CodeSampleSystem.Domain
+@using BAIS3150CodeSampleSystem.TechnicalServices
+@{
+    Student AcceptedStudent = new()
+            {
+                StudentID = "PageTest",
+                FirstName = "PageTestFirstName",
+                LastName = "PageTestLastName",
+                Email = "PageTest@nait.ca"
+            };
+
+    BCS RequestDirector = new();
+
+
+    bool Confirmation = RequestDirector.EnrollStudent(AcceptedStudent, "BAIST");
+    Console.WriteLine(Confirmation);
+
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="en-ca"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Enrol Student</title>
+    </head>
+    <body>
+        <form name="EnroleStudentForm" method="post" action="/">
+            <table>
+
+            </table>
+        </form>
+    </body>
+</html>

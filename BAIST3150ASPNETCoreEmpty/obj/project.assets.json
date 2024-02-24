@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIST3150ASPNETCoreEmpty\\BAIST3150ASPNETCoreEmpty.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150_works\\BAIST3150ASPNETCoreEmpty\\BAIST3150ASPNETCoreEmpty.csproj",
       "projectName": "BAIST3150ASPNETCoreEmpty",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIST3150ASPNETCoreEmpty\\BAIST3150ASPNETCoreEmpty.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150_works\\BAIST3150ASPNETCoreEmpty\\BAIST3150ASPNETCoreEmpty.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIST3150ASPNETCoreEmpty\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\CleanCode_cs\\BAIS3150_works\\BAIST3150ASPNETCoreEmpty\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

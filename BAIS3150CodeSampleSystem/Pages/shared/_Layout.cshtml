@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width" />
+        <title>@ViewData["Title"]</title>
+        <link rel="icon" href="~/images/BAISTFavoritesIcon.ico" />
+        <link rel="stylesheet" href="~/css/SampleBlueStyle.css" />
+
+
+        <div>
+            @RenderSection("ScriptContent", required: false)   <!-- render a section-->
+        </div>
+    </head>
+
+    <body>
+        <header>
+            @if (IsSectionDefined("headerContent")) //another way to render a section
+            {
+                @RenderSection("headerContent")
+            }<br />
+        </header>
+        <nav>
+            @if (IsSectionDefined("navigateContent"))   // renders the section called navigateContent
+            {
+                @RenderSection("navigateContent")
+            }
+        </nav>
+        <main>
+            @RenderBody()
+        </main>
+        <footer>
+           @*  <table>
+                <thead>
+                    <td>Contact us</td>
+                    <td>Connect with us</td>                    
+            </thead>
+            <tr>
+                <td>View Frequently Asked Questions</td>
+                <td><img src="~/images/instagram.png" />Follow us on Instagram</td>
+                <td><img src="~/images/facebook.png" />Follow us on facebook</td>
+            </tr>
+
+            </table> *@
+
+        
+            @if (IsSectionDefined("footerContent")) //another way to render a section
+            {
+                @RenderSection("footerContent")
+            }
+        </footer>
+    </body>
+</html>

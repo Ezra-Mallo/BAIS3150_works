@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BAIST3150ASPNETCoreEmpty
 build_property.RootNamespace = BAIST3150ASPNETCoreEmpty
-build_property.ProjectDir = C:\Users\HP\source\repos\CleanCode_cs\BAIST3150ASPNETCoreEmpty\
+build_property.ProjectDir = C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIST3150ASPNETCoreEmpty\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\CleanCode_cs\BAIST3150ASPNETCoreEmpty
+build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\CleanCode_cs\BAIS3150_works\BAIST3150ASPNETCoreEmpty
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/Content.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/Content.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/ControlSample.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/ControlSample.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbFNhbXBsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/ControlSampleHTML5.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/ControlSampleHTML5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbFNhbXBsZUhUTUw1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/DynamicDisplaySmple.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/DynamicDisplaySmple.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHluYW1pY0Rpc3BsYXlTbXBsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/DynamicFormDsplaySample.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/DynamicFormDsplaySample.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHluYW1pY0Zvcm1Ec3BsYXlTYW1wbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/Index.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/JavaScriptFormPost.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/JavaScriptFormPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmF2YVNjcmlwdEZvcm1Qb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/JavaScriptSample.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/JavaScriptSample.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmF2YVNjcmlwdFNhbXBsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/LinkSample.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/LinkSample.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlua1NhbXBsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/MultiplePost.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/MultiplePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVsdGlwbGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/Shared/_Layout.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/TestPage.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/TestPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/ValidationClientServer.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/ValidationClientServer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsaWRhdGlvbkNsaWVudFNlcnZlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/ValidationDAA.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/ValidationDAA.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsaWRhdGlvbkRBQS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/ViewHTTPRequest.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/ViewHTTPRequest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0hUVFBSZXF1ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/_ViewImports.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CleanCode_cs/BAIST3150ASPNETCoreEmpty/Pages/_ViewStart.cshtml]
+[C:/Users/HP/source/repos/CleanCode_cs/BAIS3150_works/BAIST3150ASPNETCoreEmpty/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

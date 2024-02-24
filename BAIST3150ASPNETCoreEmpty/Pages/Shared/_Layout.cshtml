@@ -16,7 +16,10 @@
     </head>
     <body>
         <header>
-            Header Area from layout<br />
+            @if (IsSectionDefined("headerContent")) //another way to render a section
+            {
+                @RenderSection("headerContent")
+            }
         </header>
         <nav>
             Navigation Area from layout<br/ >
