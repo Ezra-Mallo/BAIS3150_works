@@ -1,0 +1,28 @@
+﻿@page
+@model BAIST3150ASPNETCoreEmpty.Pages.FindDatabaseUserModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Find Database User</title>
+
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Current User:</td>
+                <td>@Model.CurrentDatabaseUser.CurrentUser</td>
+            </tr>
+            <tr>
+                <td>System User:</td>
+                <td>@Model.CurrentDatabaseUser.SystemUser</td>
+            </tr>
+            <tr>
+                <td>Session User:</td>
+                <td>@Model.CurrentDatabaseUser.SessionUser</td>
+            </tr>
+        </table>
+    </body>
+</html>
